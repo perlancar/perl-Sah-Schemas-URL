@@ -3,9 +3,9 @@ package Sah::Schema::url;
 # DATE
 # VERSION
 
-our $schema = ['str', {
+our $schema = ['obj', {
     summary => 'URL string',
-    min_len => 1,
+    isa => 'URI',
 }, {}];
 
 1;
