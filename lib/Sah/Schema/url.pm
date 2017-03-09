@@ -6,6 +6,7 @@ package Sah::Schema::url;
 our $schema = ['obj', {
     summary => 'URL string',
     isa => 'URI',
+    'x.perl.coerce_rules' => ['str_url'],
 }, {}];
 
 1;
