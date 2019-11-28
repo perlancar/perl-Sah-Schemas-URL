@@ -1,6 +1,8 @@
-package Data::Sah::Coerce::perl::obj::str_url;
+package Data::Sah::Coerce::perl::To_obj::From_str::url;
 
+# AUTHOR
 # DATE
+# DIST
 # VERSION
 
 use 5.010001;
@@ -10,6 +12,7 @@ use warnings;
 sub meta {
     +{
         v => 4,
+        summary => 'Coerce URL object (URI) from string',
         might_fail => 1,
         prio => 50,
     };
@@ -37,8 +40,6 @@ sub coerce {
 }
 
 1;
-# ABSTRACT: Coerce URL object (URI) from string
+# ABSTRACT:
 
 =for Pod::Coverage ^(meta|coerce)$
-
-=head1 DESCRIPTION
