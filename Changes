@@ -8,7 +8,7 @@
 	- Update metadata version of coerce rule module(s) 3->4.
 
 
-0.009   2019-05-28 (PERLANCAR)
+0.009   2019-05-28  Released-By: PERLANCAR
 
 	- [ux] Add schema: urls (array of urls).
 
@@ -59,3 +59,4 @@
 0.001   2016-07-22  Released-By: PERLANCAR
 
         - First release.
+
